@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoXamarinViews"
+             x:Class="DemoXamarinViews.MainPage">
+    <StackLayout>
+
+        <ActivityIndicator Color="Aquamarine"
+                       IsRunning="True">
+
+        </ActivityIndicator>
+        <BoxView
+        Color="Yellow"
+        WidthRequest="200"
+        HeightRequest="200"
+        HorizontalOptions="Center"/>
+
+        <Button
+         Text="Guardar"
+         TextColor="White"
+         BackgroundColor="BlueViolet"
+         FontSize="Large"
+         FontAttributes="Bold"
+         BorderColor="Aqua"
+         BorderWidth="2"
+         BorderRadius="10"
+         Image="xamarinico.png"
+         ContentLayout="Top,10"
+         Clicked="Button_Clicked"
+     
+            
+         />
+
+    </StackLayout>
+</ContentPage>
