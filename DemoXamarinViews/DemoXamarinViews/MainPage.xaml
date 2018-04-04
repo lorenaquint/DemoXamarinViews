@@ -39,7 +39,7 @@
                 FontSize="Large"
                 TextColor="Fuchsia"
                 x:Name="edDesc"/>-->
-        <Entry
+        <!--<Entry
                 x:Name="entPassword"
                 VerticalOptions="Center"
                 IsPassword="False"
@@ -49,6 +49,61 @@
                 TextColor="Aqua"
                 FontAttributes="Bold"
                 FontSize="Large"
-            />
-    
+            />-->
+        <!--<Image
+            Source="vsIde.png"
+            Aspect="AspectFill"
+           
+            />-->
+
+    <!--XAlign="End"
+        YAlign="Center"
+    LineBreakMode="CharacterWrap"-->
+    <!--<Label
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Text="Xamarin multi plataformaXamarin multi plataformaXamarin multi plataformaXamarin multi plataforma"
+        TextColor="Aqua"
+        VerticalTextAlignment="End"
+        HorizontalTextAlignment="End"
+        BackgroundColor="Blue"
+        WidthRequest="100"
+        HeightRequest="200"
+        LineBreakMode="TailTruncation"
+        >
+        
+       
+        
+    </Label>-->
+    <Label VerticalOptions="Center"
+           BackgroundColor="BlueViolet"
+           HorizontalTextAlignment="Center"
+           
+           
+          
+           >
+        <Label.FormattedText>
+            <FormattedString>
+                <Span Text="Xamarin"
+                      FontAttributes="Bold"
+                      FontSize="Large"
+                      ForegroundColor="White"
+                      />
+                
+                <Span Text=" Nativo"
+                      FontAttributes="Bold"
+                      FontSize="Large"
+                      ForegroundColor="Red"/>
+                <Span Text=" Xamarin Forms"
+                      FontAttributes="Bold"
+                      FontSize="Large"
+                      ForegroundColor="Aqua"/>
+               
+            </FormattedString>
+            </Label.FormattedText>
+    </Label>
+     
+        
+        
+
 </ContentPage>

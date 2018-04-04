@@ -134,4 +134,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\xamarinico.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vsIde.png" />
+  </ItemGroup>
 </Project>

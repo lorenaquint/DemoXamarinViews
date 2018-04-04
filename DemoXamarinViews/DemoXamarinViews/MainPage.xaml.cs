@@ -19,20 +19,20 @@ namespace DemoXamarinViews
             //dtp.DateSelected += Dtp_DateSelected;
             //edDesc.Completed += EdDesc_Completed;
             //edDesc.TextChanged += EdDesc_TextChanged;
-            this.entPassword.TextChanged += EntPassword_TextChanged;
-            this.entPassword.Completed += EntPassword_Completed;
+            //this.entPassword.TextChanged += EntPassword_TextChanged;
+            //this.entPassword.Completed += EntPassword_Completed;
 
         }
 
-        private void EntPassword_Completed(object sender, EventArgs e)
-        {
-            DisplayAlert("Entry", "Completado", "Aceptar");
-        }
+        //private void EntPassword_Completed(object sender, EventArgs e)
+        //{
+        //    DisplayAlert("Entry", "Completado", "Aceptar");
+        //}
 
-        private void EntPassword_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            DisplayAlert("Entry", "Modificando", "Aceptar");
-        }
+        //private void EntPassword_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    DisplayAlert("Entry", "Modificando", "Aceptar");
+        //}
 
         //private void EdDesc_TextChanged(object sender, TextChangedEventArgs e)
         //{
