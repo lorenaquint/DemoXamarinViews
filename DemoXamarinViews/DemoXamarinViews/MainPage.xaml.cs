@@ -17,13 +17,25 @@ namespace DemoXamarinViews
             //dtp.MinimumDate = new DateTime(1990, 1, 1);
             //dtp.MaximumDate = new DateTime(2020, 1, 1);
             //dtp.DateSelected += Dtp_DateSelected;
+            edDesc.Completed += EdDesc_Completed;
+            edDesc.TextChanged += EdDesc_TextChanged;
 
+        }
+
+        private void EdDesc_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            DisplayAlert("Editor", "Modificando", "Aceptar");
+        }
+
+        private void EdDesc_Completed(object sender, EventArgs e)
+        {
+            DisplayAlert("Editor", "Fuera del área de texto", "Aceptar");
         }
 
         //private void Dtp_DateSelected(object sender, DateChangedEventArgs e)
         //{
         //    CultureInfo culture = new CultureInfo("es-ES");
-           
+
         //   //DisplayAlert("Fecha", e.NewDate.ToString("D",culture), "Aceptar");
         //    DisplayAlert("Fecha", e.NewDate.ToString(), "Aceptar");
         //}

@@ -34,6 +34,10 @@
             Format="dd/MM/yyyy"
          />-->
         <Editor HeightRequest="300"
-                Keyboard="Numeric"/>
+                Keyboard="Numeric"
+                FontAttributes="Bold"
+                FontSize="Large"
+                TextColor="Fuchsia"
+                x:Name="edDesc"/>
     </StackLayout>
 </ContentPage>
