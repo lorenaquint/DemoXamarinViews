@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoXamarinViews"
              x:Class="DemoXamarinViews.MainPage">
-    <StackLayout>
+   
 
         <!--<ActivityIndicator Color="Aquamarine"
                        IsRunning="True">
@@ -33,11 +33,22 @@
             x:Name="dtp"
             Format="dd/MM/yyyy"
          />-->
-        <Editor HeightRequest="300"
+        <!--<Editor HeightRequest="300"
                 Keyboard="Numeric"
                 FontAttributes="Bold"
                 FontSize="Large"
                 TextColor="Fuchsia"
-                x:Name="edDesc"/>
-    </StackLayout>
+                x:Name="edDesc"/>-->
+        <Entry
+                x:Name="entPassword"
+                VerticalOptions="Center"
+                IsPassword="False"
+                Placeholder="Ingresar Password"
+                PlaceholderColor="Gray"
+                Text="Este es el texto"
+                TextColor="Aqua"
+                FontAttributes="Bold"
+                FontSize="Large"
+            />
+    
 </ContentPage>
