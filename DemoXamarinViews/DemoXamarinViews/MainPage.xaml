@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoXamarinViews"
              x:Class="DemoXamarinViews.MainPage">
-    <StackLayout HorizontalOptions="Center"
-                 VerticalOptions="Center">
+    <StackLayout>
 
         <!--<ActivityIndicator Color="Aquamarine"
                        IsRunning="True">
@@ -34,6 +33,7 @@
             x:Name="dtp"
             Format="dd/MM/yyyy"
          />-->
-        <Editor HeightRequest="300"/>
+        <Editor HeightRequest="300"
+                Keyboard="Numeric"/>
     </StackLayout>
 </ContentPage>
